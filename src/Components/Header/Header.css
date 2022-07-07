@@ -1,0 +1,36 @@
+.header-container{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.header-wrapper{
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.header-list-container .header-list-menu li{
+    list-style: none;
+}
+
+.header-list-container .header-list-menu li a{
+    text-decoration: none;
+    color: #1D1D2A;
+}
+
+.header-list-container .header-list-menu li a:hover{
+    opacity: 0.7;
+}
+
+.header-list-container .header-list-menu {
+    display: flex;
+   
+    flex-direction: row;
+    gap: 20px;
+    font-size: 1.3rem;
+}
+
